@@ -742,7 +742,7 @@ function renderCollections(){
       e.stopPropagation();
       const id = b.dataset.id;
       collections = collections.filter(x => x.id !== id);
-      saveCollections(); 
+      saveCollections();
       toast('Collection supprimée');
     };
   });
